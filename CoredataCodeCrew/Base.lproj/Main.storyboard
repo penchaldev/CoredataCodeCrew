@@ -59,7 +59,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="qav-TG-Kku"/>
+                    <navigationItem key="navigationItem" id="qav-TG-Kku">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="PXc-Px-dJE">
+                            <connections>
+                                <action selector="addPersonDetails:" destination="BYZ-38-t0r" id="grb-kf-qHG"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="peopleTableView" destination="yiy-VP-wUY" id="HiX-X1-jU8"/>
                     </connections>
